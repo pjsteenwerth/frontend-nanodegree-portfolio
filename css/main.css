@@ -1,0 +1,91 @@
+body {
+    font: 400 100% 'Averia Sans Libre', cursive;
+    color: #3444F5;
+}
+
+.text-muted {
+    color: #3444F5;
+}
+
+.title-super {
+    font: 700 35px 'Averia Sans Libre', cursive;
+    color: #328BE3;
+}
+
+.logo-header {
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.work-footer {
+    margin: 0 auto;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    color: rgba(58, 93, 245, 1);
+ /* old IE */
+    background-color: rgba(58, 93, 245, 1);
+ /* Modern Browsers */
+    ;
+}
+
+.gmail {
+    height: 75px;
+    width: 75px;
+    position: relative;
+    top: 3px;
+}
+
+.gplus {
+    height: 65px;
+    width: 65px;
+}
+
+.tardis {
+    height: 65px;
+    width: 65px;
+}
+
+p {
+    color: black;
+    font: 16px 'Vollkorn', serif;
+}
+ 
+h4{
+    font: 700 18px 'Averia Sans Libre', cursive;
+}
+
+a:link {
+    color: #CF0000;
+}
+
+a:visited {
+    color: #00A300;
+}
+
+a:hover {
+    color: #33CC33;
+}
+
+a:active {
+    color: #CF0000;
+}
+
+@media only screen and (min-width : 371px) and (max-width: 990px) {
+    .logo {
+        position: relative;
+        top: 175px;
+        right: 25px;
+    }
+}
+
+@media only screen and (max-width : 370px) {
+    .logo {
+        position: relative;
+        height: 70px;
+        top: 210px;
+        right: 25px;
+    }
+}
